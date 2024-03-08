@@ -3,14 +3,6 @@ from dash import dcc, html, Input, Output
 import plotly.graph_objs as go
 import requests
 
-import subprocess
-
-# Set user email
-subprocess.run(["git", "config", "--global", "user.email", "nyaridorina@gmail.com"])
-
-# Set user name
-subprocess.run(["git", "config", "--global", "user.name", "nyaridorina"])
-
 # Initialize the Dash app
 app = dash.Dash(__name__)
 
