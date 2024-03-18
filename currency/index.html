@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange Rates</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Currency Exchange Rates</h1>
+    <form id="currencyForm">
+        <label for="baseCurrency">Base Currency:</label>
+        <select id="baseCurrency" name="baseCurrency">
+            <option value="EUR">EUR</option>
+            <!-- Add more currencies as needed -->
+        </select>
+        <label for="targetCurrency">Target Currency:</label>
+        <select id="targetCurrency" name="targetCurrency">
+            <option value="CNY">CNY</option>
+            <!-- Add more currencies as needed -->
+        </select>
+        <button type="submit">Get Rates</button>
+    </form>
+    <div id="chartContainer"></div>
+
+    <script>
+        $(document).ready(function(){
+            $('#currencyForm').submit(function(e){
+                e.preventDefault();
+                var baseCurrency = $('#baseCurrency').val();
+                var targetCurrency = $('#targetCurrency').val();
+                fetchCurrencyRates(baseCurrency, targetCurrency);
+            });
+            
+            function fetchCurrencyRates(baseCurrency, targetCurrency) {
+                var apiKey = "feec8b7611be09b0cad59a2b";
+                $.ajax({
+                    url: `https://api.exchangerate-api.com/v4/latest/${baseCurrency}?api_key=${apiKey}`,
+                    method: 'GET',
+                    success: function(data) {
+                        var exchangeRates = data.rates;
+                        var dates = Object.keys(exchangeRates);
+                        var ratesBase = dates.map(function(date) {
+                            return exchangeRates[date][baseCurrency];
+                        });
+                        var ratesTarget = dates.map(function(date) {
+                            return exchangeRates[date][targetCurrency];
+                        });
+                        plotCurrencyRates(dates, ratesBase, ratesTarget, baseCurrency, targetCurrency);
+                    }
+                });
+            }
+
+            function plotCurrencyRates(dates, ratesBase, ratesTarget, baseCurrency, targetCurrency) {
+                // Clear previous chart if any
+                $('#chartContainer').empty();
+
+                // Create new chart
+                var chart = $('<canvas>');
+                $('#chartContainer').append(chart);
+
+                var ctx = chart[0].getContext('2d');
+                var myChart = new Chart(ctx, {
+                    ty

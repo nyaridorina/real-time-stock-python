@@ -1,0 +1,194 @@
+[
+    {
+        "Technique Focus": "Mindfulness meditation",
+        "Origin or Tradition": "Mindfulness",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Awareness, presence",
+        "Goal or Purpose": "Spiritual, Secular",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Transcendental meditation",
+        "Origin or Tradition": "Concentration",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Stress relief, self-development",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided"
+    },
+    {
+        "Technique Focus": "Loving-kindness meditation (Metta)",
+        "Origin or Tradition": "Compassion",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Cultivate compassion",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Vipassana meditation",
+        "Origin or Tradition": "Insight",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Self-awareness, insight",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Zen meditation (Zazen)",
+        "Origin or Tradition": "Concentration, Mindfulness",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Enlightenment, presence",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Unguided, sometimes guided"
+    },
+    {
+        "Technique Focus": "Yoga nidra",
+        "Origin or Tradition": "Relaxation",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Deep relaxation, stress relief",
+        "Goal or Purpose": "Spiritual, Secular",
+        "Guidance Level": "Guided"
+    },
+    {
+        "Technique Focus": "Guided visualization meditation",
+        "Origin or Tradition": "Visualization",
+        "Activity Level": "Various",
+        "Intended Benefit": "Relaxation, mental rehearsal",
+        "Goal or Purpose": "Secular",
+        "Guidance Level": "Guided"
+    },
+    {
+        "Technique Focus": "Body scan meditation",
+        "Origin or Tradition": "Mindfulness",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Body awareness, relaxation",
+        "Goal or Purpose": "Secular",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Chakra meditation",
+        "Origin or Tradition": "Concentration, Energy Work",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Energy balance, healing",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Breath awareness meditation (Anapanasati)",
+        "Origin or Tradition": "Concentration",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Concentration, mindfulness",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Mantra meditation",
+        "Origin or Tradition": "Concentration",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Focus, tranquility",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Walking meditation (Kinhin)",
+        "Origin or Tradition": "Mindfulness",
+        "Activity Level": "Active",
+        "Intended Benefit": "Mindfulness in motion",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Unguided"
+    },
+    {
+        "Technique Focus": "Tonglen meditation",
+        "Origin or Tradition": "Compassion",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Developing empathy, compassion",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Sound meditation (Nada yoga)",
+        "Origin or Tradition": "Concentration",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Concentration, peace",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Unguided, sometimes guided"
+    },
+    {
+        "Technique Focus": "Kundalini meditation",
+        "Origin or Tradition": "Energy Work",
+        "Activity Level": "Active/Passive",
+        "Intended Benefit": "Awakening energy, consciousness",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Taoist meditation",
+        "Origin or Tradition": "Various (Concentration, Energy Work)",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Harmony, balance",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Qigong meditation",
+        "Origin or Tradition": "Movement, Energy Work",
+        "Activity Level": "Active",
+        "Intended Benefit": "Health, vitality",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Reiki meditation",
+        "Origin or Tradition": "Energy Work",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Healing, balance",
+        "Goal or Purpose": "Secular",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Christian meditation (Contemplative prayer)",
+        "Origin or Tradition": "Contemplation",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Spiritual connection, contemplation",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Sufi meditation",
+        "Origin or Tradition": "Various (Concentration, Devotion)",
+        "Activity Level": "Passive/Active",
+        "Intended Benefit": "Spiritual unity, love",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided or Unguided"
+    },
+    {
+        "Technique Focus": "Shamanic journeying",
+        "Origin or Tradition": "Visualization",
+        "Activity Level": "Passive/Active",
+        "Intended Benefit": "Healing, guidance",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided"
+    },
+    {
+        "Technique Focus": "Dynamic meditation (Osho meditation)",
+        "Origin or Tradition": "Movement, Catharsis",
+        "Activity Level": "Active",
+        "Intended Benefit": "Release, awareness",
+        "Goal or Purpose": "Spiritual",
+        "Guidance Level": "Guided"
+    },
+    {
+        "Technique Focus": "Biofeedback meditation",
+        "Origin or Tradition": "Relaxation, Self-regulation",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Stress relief, self-regulation",
+        "Goal or Purpose": "Secular",
+        "Guidance Level": "Guided with equipment"
+    },
+    {
+        "Technique Focus": "Mindfulness-Based Stress Reduction (MBSR)",
+        "Origin or Tradition": "Mindfulness",
+        "Activity Level": "Passive",
+        "Intended Benefit": "Stress reduction, health",
+        "Goal or Purpose": "Secular",
+        "Guidance Level": "Guided"
+    }
+]
