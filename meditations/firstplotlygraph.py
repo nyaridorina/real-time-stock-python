@@ -1,5 +1,7 @@
 import plotly.express as px
 import pandas as pd
+import plotly.graph_objects as go
+import plotly.io as pio
 
 # Create a dictionary with the provided meditations list
 data = {
@@ -22,3 +24,9 @@ fig = px.scatter(df, x='Technique Focus', y='Intended Benefit', color='Origin or
 
 # Show the plot
 fig.show()
+
+# Assuming you have a Plotly figure named 'fig'
+fig = go.Figure(data=go.Bar(y=[2, 3, 1]))
+
+# Write the figure to a file
+pio.write_html(fig, 'index.html')
